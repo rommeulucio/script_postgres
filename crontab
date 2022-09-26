@@ -1,0 +1,3 @@
+## ABRE O CRONTAB E CONFIGURA PARA RODAR SCRIPT A CADA 02 MINUTOS ##
+
+*/2 * * * * cd /usr/local/script/ && docker-compose up
