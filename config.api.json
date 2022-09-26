@@ -1,5 +1,5 @@
 {
-    "host": "172.16.209.242",
+    "host": "IP",
     "port": 5432,
     "user": "postgres",
     "password": "postgres",
