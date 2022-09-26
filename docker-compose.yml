@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  script-registro:
+    hostname: script
+    container_name: script
+    build:
+      context: ./
+      dockerfile: Dockerfile.scratch
+    volumes:
+        - ./config.api.json:/etc/default/config.api.json:ro
